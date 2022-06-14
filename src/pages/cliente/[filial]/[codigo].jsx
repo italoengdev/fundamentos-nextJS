@@ -12,7 +12,9 @@ export default function ClientePorCodigo(){
     // <Cabecalho>
     //   TESTE PROPS {router.query.codigo}
     // </Cabecalho>
+    
     <Layout titulo="navegação dinamica">
+      <h1>Navegação extraindo dados de parametros URL usando chochetes</h1>
       <div>Filial = {router.query.filial}</div>
       <div>Código = {router.query.codigo}</div>
     </Layout>
